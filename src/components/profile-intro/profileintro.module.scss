@@ -1,0 +1,25 @@
+.root {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10%;
+  text-align: center;
+
+  h1 {
+    font-size: 36px;
+    color: #ffffff;
+    line-height: 1;
+    margin: 0;
+  }
+
+  p {
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-weight: 300;
+    line-height: 1.4;
+  }
+}

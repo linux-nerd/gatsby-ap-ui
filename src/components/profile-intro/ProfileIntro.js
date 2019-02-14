@@ -1,0 +1,13 @@
+import React from 'react';
+import styles from './profileintro.module.scss';
+
+const ProfileIntro = () => {
+  return (
+    <div className={styles.root}>
+      <h1>Hi, I'm Abhishek Prakash</h1>
+      <p>Front End Lead</p>
+    </div>
+  );
+};
+
+export default ProfileIntro;

@@ -1,55 +1,61 @@
 @import "base/variables";
-@import url('https://fonts.googleapis.com/css?family=Hind');
+@import url("https://fonts.googleapis.com/css?family=Hind");
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family : $font-primary;
-  font-size   : $font-xs;
-  line-height : 1.8em;
-  color       : $color-grey;
-  font-weight : $font-light;
-  background  : $color-white;
+  font-family: $font-primary;
+  font-size: $font-xs;
+  line-height: 1.8em;
+  color: $color-grey;
+  font-weight: $font-light;
+  background: $color-white;
+  margin: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  margin : 0 0 15px;
-  color  : $color-dark-grey;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 15px;
+  color: $color-dark-grey;
 }
 
 h1 {
-  font-size   : $font-l;
-  line-height : 1.8em;
-  font-weight : $font-dark;
+  font-size: $font-l;
+  line-height: 1.8em;
+  font-weight: $font-dark;
 }
 
 h2 {
-  font-size   : $font-m;
-  line-height : 1.8em;
-  font-weight : $font-dark;
+  font-size: $font-m;
+  line-height: 1.8em;
+  font-weight: $font-dark;
 }
 
 h3 {
-  font-size   : $font-s;
-  line-height : 1.8em;
-  font-weight : $font-medium;
+  font-size: $font-s;
+  line-height: 1.8em;
+  font-weight: $font-medium;
 }
 
 h4 {
-  font-size   : $font-xs;
-  line-height : 1.8em;
-  font-weight : $font-medium;
+  font-size: $font-xs;
+  line-height: 1.8em;
+  font-weight: $font-medium;
 }
 
 h5 {
-  font-size   : $font-xs;
-  line-height : 1.5em;
-  font-weight : $font-medium;
+  font-size: $font-xs;
+  line-height: 1.5em;
+  font-weight: $font-medium;
 }
 
 h6 {
-  font-size   : $font-xs;
-  line-height : 1.5em;
+  font-size: $font-xs;
+  line-height: 1.5em;
 }

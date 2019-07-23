@@ -1,11 +1,12 @@
-import React from 'react';
-import styles from './profileintro.module.scss';
+import React from "react";
+import styles from "./profileintro.module.scss";
 
-const ProfileIntro = () => {
+const ProfileIntro = ({ children }) => {
   return (
     <div className={styles.root}>
       <h1>Hi, I'm Abhishek Prakash</h1>
       <p>Front End Lead</p>
+      {children}
     </div>
   );
 };

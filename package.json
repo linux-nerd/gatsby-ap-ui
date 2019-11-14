@@ -30,6 +30,5 @@
     "gatsby-plugin-sass": "^2.0.2",
     "node-sass": "^4.9.4",
     "resolve-url-loader": "^3.0.0"
-  },
-  "engines" : { "node" : "10.13.0" }
+  }
 }

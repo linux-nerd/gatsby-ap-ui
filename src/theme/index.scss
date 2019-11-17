@@ -62,3 +62,13 @@ h6 {
 p {
   margin: 0 0 10px;
 }
+address {
+  font-style: initial;
+  a,
+  a:active,
+  a:focus,
+  a:active {
+    text-decoration: none;
+    outline: none;
+  }
+}

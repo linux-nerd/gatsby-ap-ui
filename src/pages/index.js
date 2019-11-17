@@ -29,7 +29,6 @@ const LandingPage = () => {
           ))}
         </ul>
       </Section>
-
       <Section>
         <SectionTitle title="Skills" />
         <Skills skills={skills} />
@@ -42,14 +41,21 @@ const LandingPage = () => {
         <SectionTitle title="Education" />
         <MiniCardsWrapper cards={education} />
       </Section>
+      {/*
       <Section darkBg>
         <SectionTitle title="Interest" />
       </Section>
       <Section>
         <SectionTitle title="Open Source Software" />
-      </Section>
+      </Section>{" "}
+      */}
       <Section darkBg>
         <SectionTitle title="Contact" />
+        <address>
+          <strong>Email</strong>
+          <br />
+          <a href="mailto:#">hello@abhishekprakash.com</a>
+        </address>
       </Section>
     </Layout>
   );

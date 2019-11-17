@@ -21,6 +21,17 @@
       box-shadow: -10px -10px 30px rgba(0, 0, 0, 0.23);
     }
 
+    @media (max-width: 600px) {
+      &:first-child,
+      &:last-child {
+        width: 100%;
+        position: relative;
+      }
+      &:last-child {
+        box-shadow: none;
+      }
+    }
+
     header {
       padding: 0;
       margin: 0;

@@ -1,6 +1,5 @@
 import React from "react";
 import "../theme/index.scss";
-import Layout from "../components/layout/Layout";
 import Section from "../components/section-wrapper/SectionWrapper";
 import SectionTitle from "../components/section-title/SectionTitle";
 import ReactMarkdown from "react-markdown";
@@ -14,6 +13,7 @@ import {
 } from "../data/content";
 import Skills from "../components/skills/SkillsWrapper";
 import MiniCardsWrapper from "../components/mini-cards/MiniCardsWrapper";
+import Layout from "../components/layout/Layout";
 const LandingPage = () => {
   return (
     <Layout social={social}>
@@ -54,7 +54,11 @@ const LandingPage = () => {
         <address>
           <strong>Email</strong>
           <br />
-          <a href="mailto:#">hello@abhishekprakash.com</a>
+          <a href="mailto:hello@abhishekprakash.com">
+            hello@abhishekprakash.com
+          </a>
+          <br />
+          <a href="mailto:abhishekabby@gmail.com">abhishekabby@gmail.com</a>
         </address>
       </Section>
     </Layout>

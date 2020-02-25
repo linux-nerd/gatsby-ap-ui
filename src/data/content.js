@@ -35,10 +35,10 @@ export const skills = [
 
 export const experiences = [
   {
-    from: 2019,
+    from: "March 2019",
     to: "Present",
     title: "Senior Web Developer",
-    company: "iZettle, a PayPal service",
+    company: "PayPal SE",
     country: "Sweden",
     city: "Stockholm"
   },

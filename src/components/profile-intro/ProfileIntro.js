@@ -6,7 +6,7 @@ const ProfileIntro = ({ children }) => {
     <div className={styles.root}>
       <h1>Hi, I'm Abhishek Prakash</h1>
       <p>Senior Web Developer</p>
-      <p>iZettle, a PayPal service</p>
+      <p>PayPal SE</p>
       {children}
     </div>
   );

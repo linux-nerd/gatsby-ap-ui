@@ -4,20 +4,29 @@ import {
   faFacebook,
   faTwitter,
   faLinkedin,
-  faGithub
+  faGithub,
+  faBloggerB,
+  faDev,
+  faStackOverflow
 } from "@fortawesome/free-brands-svg-icons";
 
 import styles from "./socialicons.module.scss";
 
 function socialIcon(icon, color) {
   if (icon === "fb") {
-    return <FontAwesomeIcon icon={faFacebook} color={color} />;
+    return <FontAwesomeIcon size="lg" icon={faFacebook} color={color} />;
   } else if (icon === "twitter") {
-    return <FontAwesomeIcon icon={faTwitter} color={color} />;
+    return <FontAwesomeIcon size="lg" icon={faTwitter} color={color} />;
   } else if (icon === "linkedin") {
-    return <FontAwesomeIcon icon={faLinkedin} color={color} />;
+    return <FontAwesomeIcon size="lg" icon={faLinkedin} color={color} />;
   } else if (icon === "github") {
-    return <FontAwesomeIcon icon={faGithub} color={color} />;
+    return <FontAwesomeIcon size="lg" icon={faGithub} color={color} />;
+  } else if (icon === "blog") {
+    return <FontAwesomeIcon size="lg" icon={faBloggerB} color={color} />;
+  } else if (icon === "dev") {
+    return <FontAwesomeIcon size="lg" icon={faDev} color={color} />;
+  } else if (icon === "stackoverflow") {
+    return <FontAwesomeIcon size="lg" icon={faStackOverflow} color={color} />;
   } else {
     return null;
   }
@@ -36,4 +45,3 @@ const SocialIcons = props => {
 };
 
 export default SocialIcons;
-

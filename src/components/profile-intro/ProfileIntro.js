@@ -5,8 +5,8 @@ const ProfileIntro = ({ children }) => {
   return (
     <div className={styles.root}>
       <h1>Hi, I'm Abhishek Prakash</h1>
-      <p>Senior Web Developer</p>
-      <p>PayPal SE</p>
+      <p>Web Specialist</p>
+      <p>@PayPal SE</p>
       {children}
     </div>
   );

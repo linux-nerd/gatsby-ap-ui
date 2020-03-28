@@ -16,6 +16,9 @@
   }
 
   p {
+    &:nth-child(0) {
+      margin-bottom: 0px;
+    }
     font-size: 18px;
     color: #ffffff;
     margin-bottom: 20px;

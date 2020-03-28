@@ -1,7 +1,13 @@
 export const social = [
   { url: "https://www.linkedin.com/in/abhishek-pk/", icon: "linkedin" },
   { url: "https://github.com/linux-nerd", icon: "github" },
-  { url: "https://twitter.com/nerd_linux", icon: "twitter" }
+  { url: "https://twitter.com/nerd_linux", icon: "twitter" },
+  { url: "https://blog.abhishekprakash.com/", icon: "blog" },
+  { url: "https://dev.to/linuxnerd", icon: "dev" },
+  {
+    url: "https://stackoverflow.com/users/1239386/abhishek-prakash",
+    icon: "stackoverflow"
+  }
   //{ url: "#", icon: "fb" }
 ];
 
@@ -18,10 +24,6 @@ export const expertise = [
   "Extensive experience in training and mentoring the team members to getting them aligned with product success",
   "A quick learner with excellent logical, analytical, communication skill",
   "Extensive experience working on Agile methodology"
-  /*"Evaluating, defining and writing custom UI frameworks/components",
-  "Exploring and evaluating cutting edge new technologies and tools",
-  "Improve and validate application performance and document result",
-  "Defining UI strategy to deliver solution faster"*/
 ];
 
 export const skills = [
@@ -37,7 +39,7 @@ export const experiences = [
   {
     from: "March 2019",
     to: "Present",
-    title: "Senior Web Developer",
+    title: "Web Specialist",
     company: "PayPal SE",
     country: "Sweden",
     city: "Stockholm"
